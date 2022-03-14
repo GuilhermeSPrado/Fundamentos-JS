@@ -2,7 +2,10 @@ function apresentar(nome) {
     return `meu nome é ${nome}`
 }
 
-const apresentarArrow = nome => `meu nome é  ${nome}`
+function apresentarArrow(nome) {
+    return `meu nome é  ${nome}`
+}
+apresentar('Guilherme')
 //Outra forma de se fazer function
 const soma = (num1,num2) => num1*num2
 console.log(soma(18,19))
